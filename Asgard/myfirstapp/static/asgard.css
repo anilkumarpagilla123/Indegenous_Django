@@ -1,0 +1,27 @@
+.card{
+    width: 900px;
+    height: 450px;
+    margin:auto;
+    margin-top: 50px;
+}
+.objects{
+    margin-top: 60px;
+}
+.item {
+   width: 120px;
+   height: 70px;
+   margin-left: 60px;
+   border-radius:5px;
+}   
+@media only screen and (max-width: 1000px) {.card,.objects{ width: 800px;}}
+
+@media only screen and (max-width: 830px) {.card,.objects{ width: 600px;}
+.item{ margin-top: 15px; }} 
+
+@media only screen and (max-width: 630px) {.card,.objects{ width: 450px;}}
+
+@media only screen and (max-width: 450px) {.card,.objects{ width: 300px;}
+    .card{ height: 700px;}}
+
+@media only screen and (max-width: 300px) {.card,.objects{ width: 220px;}
+    .card{ height: 700px;}}
